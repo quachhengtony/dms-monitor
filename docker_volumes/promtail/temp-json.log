@@ -1,0 +1,26 @@
+{"log":"2023-08-03 02:36:23+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.30-1.el8 started.\n","stream":"stdout","time":"2023-08-03T02:36:23.3853674Z"}
+{"log":"'/var/lib/mysql/mysql.sock' -\u003e '/var/run/mysqld/mysqld.sock'\n","stream":"stdout","time":"2023-08-03T02:36:23.6305528Z"}
+{"log":"2023-08-03T02:36:23.985849Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.\n","stream":"stderr","time":"2023-08-03T02:36:23.9944515Z"}
+{"log":"2023-08-03T02:36:23.988688Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.30) starting as process 1\n","stream":"stderr","time":"2023-08-03T02:36:23.9945125Z"}
+{"log":"2023-08-03T02:36:24.003040Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n","stream":"stderr","time":"2023-08-03T02:36:24.003596Z"}
+{"log":"2023-08-03T02:36:24.241641Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n","stream":"stderr","time":"2023-08-03T02:36:24.2420209Z"}
+{"log":"2023-08-03T02:36:24.505861Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2023-08-03T02:36:24.5063545Z"}
+{"log":"2023-08-03T02:36:24.505947Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.\n","stream":"stderr","time":"2023-08-03T02:36:24.5063881Z"}
+{"log":"2023-08-03T02:36:24.510560Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2023-08-03T02:36:24.5110702Z"}
+{"log":"2023-08-03T02:36:24.547797Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock\n","stream":"stderr","time":"2023-08-03T02:36:24.5482473Z"}
+{"log":"2023-08-03T02:36:24.548027Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.30'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.\n","stream":"stderr","time":"2023-08-03T02:36:24.548302Z"}
+{"log":"2023-08-03T02:43:03.340740Z 0 [System] [MY-013172] [Server] Received SHUTDOWN from user \u003cvia user signal\u003e. Shutting down mysqld (Version: 8.0.30).\n","stream":"stderr","time":"2023-08-03T02:43:03.3415361Z"}
+{"log":"2023-08-03T02:43:04.011794Z 0 [System] [MY-010910] [Server] /usr/sbin/mysqld: Shutdown complete (mysqld 8.0.30)  MySQL Community Server - GPL.\n","stream":"stderr","time":"2023-08-03T02:43:04.0126773Z"}
+{"log":"2023-08-03 02:43:05+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.30-1.el8 started.\n","stream":"stdout","time":"2023-08-03T02:43:05.2904837Z"}
+{"log":"2023-08-03 02:43:05+00:00 [Note] [Entrypoint]: Switching to dedicated user 'mysql'\n","stream":"stdout","time":"2023-08-03T02:43:05.5374016Z"}
+{"log":"2023-08-03 02:43:05+00:00 [Note] [Entrypoint]: Entrypoint script for MySQL Server 8.0.30-1.el8 started.\n","stream":"stdout","time":"2023-08-03T02:43:05.5554474Z"}
+{"log":"'/var/lib/mysql/mysql.sock' -\u003e '/var/run/mysqld/mysqld.sock'\n","stream":"stdout","time":"2023-08-03T02:43:05.8258468Z"}
+{"log":"2023-08-03T02:43:06.432352Z 0 [Warning] [MY-011068] [Server] The syntax '--skip-host-cache' is deprecated and will be removed in a future release. Please use SET GLOBAL host_cache_size=0 instead.\n","stream":"stderr","time":"2023-08-03T02:43:06.4623166Z"}
+{"log":"2023-08-03T02:43:06.455429Z 0 [System] [MY-010116] [Server] /usr/sbin/mysqld (mysqld 8.0.30) starting as process 1\n","stream":"stderr","time":"2023-08-03T02:43:06.4624091Z"}
+{"log":"2023-08-03T02:43:06.488793Z 1 [System] [MY-013576] [InnoDB] InnoDB initialization has started.\n","stream":"stderr","time":"2023-08-03T02:43:06.4895937Z"}
+{"log":"2023-08-03T02:43:07.110296Z 1 [System] [MY-013577] [InnoDB] InnoDB initialization has ended.\n","stream":"stderr","time":"2023-08-03T02:43:07.1108128Z"}
+{"log":"2023-08-03T02:43:07.401201Z 0 [Warning] [MY-010068] [Server] CA certificate ca.pem is self signed.\n","stream":"stderr","time":"2023-08-03T02:43:07.4016167Z"}
+{"log":"2023-08-03T02:43:07.401297Z 0 [System] [MY-013602] [Server] Channel mysql_main configured to support TLS. Encrypted connections are now supported for this channel.\n","stream":"stderr","time":"2023-08-03T02:43:07.4016566Z"}
+{"log":"2023-08-03T02:43:07.406236Z 0 [Warning] [MY-011810] [Server] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.\n","stream":"stderr","time":"2023-08-03T02:43:07.4066613Z"}
+{"log":"2023-08-03T02:43:07.441328Z 0 [System] [MY-011323] [Server] X Plugin ready for connections. Bind-address: '::' port: 33060, socket: /var/run/mysqld/mysqlx.sock\n","stream":"stderr","time":"2023-08-03T02:43:07.4418297Z"}
+{"log":"2023-08-03T02:43:07.441531Z 0 [System] [MY-010931] [Server] /usr/sbin/mysqld: ready for connections. Version: '8.0.30'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server - GPL.\n","stream":"stderr","time":"2023-08-03T02:43:07.4418746Z"}
