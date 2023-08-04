@@ -742,10 +742,8 @@
   ],
   "schemaVersion": 27,
   "style": "dark",
-  "tags": [
-    "cadvisor",
-    "docker"
-  ],
+  "tags": ["cadvisor", "docker"],
+  "refresh": true,
   "templating": {
     "list": [
       {

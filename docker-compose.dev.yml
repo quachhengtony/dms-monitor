@@ -38,7 +38,7 @@ services:
   grafana:
     image: grafana/grafana:latest
     container_name: grafana
-    user: "0"
+    # user: "0"
     ports:
       - 3000:3000
     restart: unless-stopped
@@ -63,6 +63,7 @@ services:
 
   prometheus:
     image: "prom/prometheus"
+    # user: "0"
     volumes:
       - ./docker_volumes/prometheus/prometheus-config.yml:/etc/prometheus/prometheus-config.yml
     ports:
